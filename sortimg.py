@@ -275,3 +275,4 @@ def sort_orient_move(img, dir1):
         else:
             os.mkdir(dir1 + '/' + s)
             shutil.move(img1.directive + '/' + img1.name, dir1 + '/' + s)
+            
